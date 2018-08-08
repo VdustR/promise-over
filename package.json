@@ -1,10 +1,12 @@
 {
   "name": "promise-over",
   "version": "0.1.0",
+  "license" : "MIT",
   "private": false,
   "main": "dist/promise-over.js",
   "module": "src/index.js",
   "scripts": {
+    "commit": "git-cz",
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build --target lib --name promiseOver ./src/index.js",
     "build:docs": "vue-cli-service build --mode development",
