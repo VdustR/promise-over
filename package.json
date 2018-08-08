@@ -2,6 +2,14 @@
   "name": "promise-over",
   "version": "0.1.0",
   "license" : "MIT",
+  "homepage": "https://github.com/VdustR/promise-over",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:VdustR/promise-over.git"
+  },
+  "bugs": {
+    "url": "https://github.com/VdustR/promise-over/issues"
+  },
   "private": false,
   "main": "dist/promiseOver.umd.min.js",
   "module": "dist/promiseOver.common.js",
