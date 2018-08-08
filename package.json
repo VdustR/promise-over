@@ -1,19 +1,33 @@
 {
   "name": "promise-over",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
+  "main": "dist/promise-over.js",
+  "module": "src/index.js",
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "build": "vue-cli-service build --target lib --name promiseOver ./src/index.js",
+    "build:docs": "vue-cli-service build --mode development",
+    "lint": "vue-cli-service lint ."
   },
   "dependencies": {
+    "normalize.css": "^8.0.0",
     "vue": "^2.5.16"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.0.0-rc.10",
     "@vue/cli-plugin-eslint": "^3.0.0-rc.10",
     "@vue/cli-service": "^3.0.0-rc.10",
+    "commitizen": "^2.10.1",
+    "cz-conventional-changelog": "^2.1.0",
+    "eslint-config-standard": "^11.0.0",
+    "eslint-plugin-import": "^2.13.0",
+    "eslint-plugin-node": "^7.0.1",
+    "eslint-plugin-promise": "^3.8.0",
+    "eslint-plugin-standard": "^3.1.0",
+    "node-sass": "^4.9.2",
+    "sass-loader": "^7.1.0",
+    "vue-cli-plugin-pug": "^1.0.5",
     "vue-template-compiler": "^2.5.16"
   },
   "eslintConfig": {
@@ -23,7 +37,7 @@
     },
     "extends": [
       "plugin:vue/essential",
-      "eslint:recommended"
+      "standard"
     ],
     "rules": {},
     "parserOptions": {
@@ -39,5 +53,10 @@
     "> 1%",
     "last 2 versions",
     "not ie <= 8"
-  ]
+  ],
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
 }

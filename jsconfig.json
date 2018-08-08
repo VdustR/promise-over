@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "promise-over": ["./src/promise-over"],
+      "promise-over/*": ["./src/promise-over"],
+      "Docs/*": ["./docs"]
+    }
+  },
+  "exclude": ["node_modules", "dist"]
+}
