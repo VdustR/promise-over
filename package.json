@@ -1,6 +1,6 @@
 {
   "name": "promise-over",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "author": {
     "name": "ViPro",
     "email": "VdustR@gmail.com",
@@ -25,10 +25,9 @@
   ],
   "private": false,
   "main": "dist/promiseOver.umd.min.js",
-  "module": "src/index.js",
+  "module": "dist/promiseOver.common.js",
   "files": [
-    "dist",
-    "src"
+    "dist"
   ],
   "scripts": {
     "commit": "git-cz",
