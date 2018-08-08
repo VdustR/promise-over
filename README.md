@@ -1,5 +1,7 @@
 # promise-over
 
+[![NPM](https://nodei.co/npm/promise-over.png)](https://nodei.co/npm/promise-over/)
+
 A promise extension for over duration, timeout, and expiration.
 
 ## Install
@@ -72,3 +74,7 @@ try {
   }
 }
 ```
+
+## Demo
+
+Check timeline [here](https://vdustr.github.io/promise-over).

@@ -1,6 +1,6 @@
 <template lang="pug">
   .promise-over
-    h1 Timeline
+    h2 Timeline
     DemoProgress(v-for="(data, index) in dummy" :key="index" :data="data")
 </template>
 
@@ -36,8 +36,4 @@ export default {
 <style lang="sass" scoped>
 h1
   color: var(--color)
-
-.promise-over
-  max-width: 720px
-  margin: 0 auto
 </style>
