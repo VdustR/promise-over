@@ -1,6 +1,11 @@
 {
   "name": "promise-over",
   "version": "0.1.4",
+  "author": {
+    "name": "ViPro",
+    "email": "VdustR@gmail.com",
+    "url": "https://VdustR.github.io"
+  },
   "license" : "MIT",
   "homepage": "https://github.com/VdustR/promise-over",
   "repository": {
