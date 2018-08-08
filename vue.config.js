@@ -3,6 +3,8 @@ const path = require('path')
 const configuration = {}
 const configureWebpack = {}
 
+configuration.baseUrl = process.env.BASE_URL || '/'
+
 configureWebpack.resolve = {
   alias: {
     'promise-over': path.resolve(__dirname, 'src'),

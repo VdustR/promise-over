@@ -6,7 +6,7 @@
     "email": "VdustR@gmail.com",
     "url": "https://VdustR.github.io"
   },
-  "license" : "MIT",
+  "license": "MIT",
   "homepage": "https://github.com/VdustR/promise-over",
   "repository": {
     "type": "git",
@@ -34,7 +34,8 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build --target lib --name promiseOver ./src/index.js",
     "build:docs": "vue-cli-service build --mode development",
-    "lint": "vue-cli-service lint ."
+    "lint": "vue-cli-service lint .",
+    "deploy:docs": "vue-cli-service build --mode documentation ; gh-pages -d dist"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.0.0-rc.10",
@@ -47,6 +48,7 @@
     "eslint-plugin-node": "^7.0.1",
     "eslint-plugin-promise": "^3.8.0",
     "eslint-plugin-standard": "^3.1.0",
+    "gh-pages": "^1.2.0",
     "node-sass": "^4.9.2",
     "normalize.css": "^8.0.0",
     "sass-loader": "^7.1.0",
