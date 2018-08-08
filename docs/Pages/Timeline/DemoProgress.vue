@@ -142,7 +142,6 @@ export default {
   },
   mounted () {
     this.start()
-    top.promiseOver = promiseOver
   },
   beforeDestroy () {
     this.clearFrameInterval()
