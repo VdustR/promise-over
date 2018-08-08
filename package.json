@@ -3,18 +3,17 @@
   "version": "0.1.0",
   "license" : "MIT",
   "private": false,
-  "main": "dist/promise-over.js",
-  "module": "src/index.js",
+  "main": "dist/promiseOver.umd.min.js",
+  "module": "dist/promiseOver.common.js",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "commit": "git-cz",
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build --target lib --name promiseOver ./src/index.js",
     "build:docs": "vue-cli-service build --mode development",
     "lint": "vue-cli-service lint ."
-  },
-  "dependencies": {
-    "normalize.css": "^8.0.0",
-    "vue": "^2.5.16"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.0.0-rc.10",
@@ -28,7 +27,9 @@
     "eslint-plugin-promise": "^3.8.0",
     "eslint-plugin-standard": "^3.1.0",
     "node-sass": "^4.9.2",
+    "normalize.css": "^8.0.0",
     "sass-loader": "^7.1.0",
+    "vue": "^2.5.16",
     "vue-cli-plugin-pug": "^1.0.5",
     "vue-template-compiler": "^2.5.16"
   },
