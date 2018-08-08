@@ -10,6 +10,14 @@
   "bugs": {
     "url": "https://github.com/VdustR/promise-over/issues"
   },
+  "keywords": [
+    "promise",
+    "over",
+    "timeout",
+    "expire",
+    "async",
+    "await"
+  ],
   "private": false,
   "main": "dist/promiseOver.umd.min.js",
   "module": "dist/promiseOver.common.js",
