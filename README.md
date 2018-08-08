@@ -10,6 +10,12 @@ npm i promise-over
 yarn add promise-over
 ```
 
+CDN:
+
+```html
+<script src="https://unpkg.com/promise-over@0.1.2/dist/promiseOver.umd.min.js"></script>
+```
+
 ## Usage
 
 ### Essential
