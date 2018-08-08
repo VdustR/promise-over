@@ -13,7 +13,7 @@ yarn add promise-over
 CDN:
 
 ```html
-<script src="https://unpkg.com/promise-over@0.1.4/dist/promiseOver.umd.min.js"></script>
+<script src="https://unpkg.com/promise-over/dist/promiseOver.umd.min.js"></script>
 ```
 
 ## Usage
