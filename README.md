@@ -24,9 +24,9 @@ CDN:
 
 ```javascript
 // es5
-var promiseOver = require('promiseOver')
+var promiseOver = require('promise-over')
 // es-next
-import promiseOver from 'promiseOver'
+import promiseOver from 'promise-over'
 
 promiseOver.over(asyncMethod, 5000).then(() => {
   // this will be called after over 5 seconds
