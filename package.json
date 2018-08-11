@@ -1,6 +1,6 @@
 {
   "name": "promise-over",
-  "version": "0.1.8",
+  "version": "0.1.9",
   "author": {
     "name": "ViPro",
     "email": "VdustR@gmail.com",
@@ -38,9 +38,9 @@
     "deploy:docs": "vue-cli-service build --mode documentation ; gh-pages -d dist"
   },
   "devDependencies": {
-    "@vue/cli-plugin-babel": "^3.0.0-rc.10",
-    "@vue/cli-plugin-eslint": "^3.0.0-rc.10",
-    "@vue/cli-service": "^3.0.0-rc.10",
+    "@vue/cli-plugin-babel": "^3.0.0",
+    "@vue/cli-plugin-eslint": "^3.0.0",
+    "@vue/cli-service": "^3.0.0",
     "commitizen": "^2.10.1",
     "cz-conventional-changelog": "^2.1.0",
     "eslint-config-standard": "^11.0.0",
@@ -49,7 +49,7 @@
     "eslint-plugin-promise": "^3.8.0",
     "eslint-plugin-standard": "^3.1.0",
     "gh-pages": "^1.2.0",
-    "node-sass": "^4.9.2",
+    "node-sass": "^4.9.3",
     "normalize.css": "^8.0.0",
     "sass-loader": "^7.1.0",
     "vue": "^2.5.16",

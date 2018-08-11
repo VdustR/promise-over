@@ -18,6 +18,8 @@ CDN:
 <script src="https://unpkg.com/promise-over/dist/promiseOver.umd.min.js"></script>
 ```
 
+Notice that `promise-finally` [polyfill](https://github.com/tc39/proposal-promise-finally/blob/master/polyfill.js) is required if you want to support browsers not supporting `promise-finally`.
+
 ## Usage
 
 ### Essential
