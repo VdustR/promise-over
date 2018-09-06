@@ -1,6 +1,6 @@
 {
   "name": "promise-over",
-  "version": "0.1.9",
+  "version": "0.1.10",
   "description": "A promise extension for over duration, timeout, and expiration.",
   "keywords": [
     "promise",
@@ -33,15 +33,16 @@
     "commit": "git-cz",
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build --target lib --name promiseOver ./src/index.js",
-    "build:docs": "vue-cli-service build --mode development",
+    "build:docs": "vue-cli-service build --mode documentation",
     "lint": "vue-cli-service lint .",
-    "deploy:docs": "vue-cli-service build --mode documentation ; gh-pages -d dist"
+    "deploy:docs": "cross-env BASE_URL=/promise-over/ vue-cli-service build --mode documentation ; gh-pages -d dist"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.0.1",
     "@vue/cli-plugin-eslint": "^3.0.1",
     "@vue/cli-service": "^3.0.1",
     "commitizen": "^2.10.1",
+    "cross-env": "^5.2.0",
     "cz-conventional-changelog": "^2.1.0",
     "eslint-config-standard": "^12.0.0",
     "eslint-plugin-import": "^2.14.0",

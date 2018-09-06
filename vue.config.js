@@ -3,7 +3,13 @@ const path = require('path')
 const configuration = {}
 const configureWebpack = {}
 
-configuration.baseUrl = process.env.BASE_URL || '/'
+const {
+  BASE_URL,
+  IS_DOC,
+  IS_LIB
+} = process.env
+
+configuration.baseUrl = BASE_URL || '/'
 
 configureWebpack.resolve = {
   alias: {
@@ -12,14 +18,15 @@ configureWebpack.resolve = {
   }
 }
 
-if (process.env.IS_DOC) {
+if (IS_DOC) {
+  configuration.outputDir = './dist-docs'
   configureWebpack.output = {
     filename: '[name]-[hash].js'
   }
   configureWebpack.entry = './docs/main.js'
 }
 
-if (process.env.IS_LIB) {
+if (IS_LIB) {
   configureWebpack.output = {
     libraryExport: 'default'
   }
