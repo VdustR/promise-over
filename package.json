@@ -35,7 +35,7 @@
     "build": "vue-cli-service build --target lib --name promiseOver ./src/index.js",
     "build:docs": "vue-cli-service build --mode documentation",
     "lint": "vue-cli-service lint .",
-    "deploy:docs": "cross-env BASE_URL=/promise-over/ vue-cli-service build --mode documentation ; gh-pages -d dist"
+    "deploy:docs": "cross-env BASE_URL=/promise-over/ vue-cli-service build --mode documentation ; gh-pages -d dist-docs"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.0.1",
