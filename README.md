@@ -27,8 +27,14 @@ Notice that `promise-finally` [polyfill](https://github.com/tc39/proposal-promis
 ```javascript
 // es5
 var promiseOver = require('promise-over')
-// es-next
+// es6+
 import promiseOver from 'promise-over'
+// tree shaking(babel is required)
+import promiseOver from 'promise-over/src/promise-over'
+import expire from 'promise-over/src/expire'
+import over from 'promise-over/src/over'
+import timeoutExpire from 'promise-over/src/timeout-expire'
+import timeout from 'promise-over/src/timeout'
 
 promiseOver.over(asyncMethod, 5000).then(() => {
   // this will be called after over 5 seconds
