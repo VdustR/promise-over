@@ -1,20 +1,7 @@
 {
   "name": "promise-over",
   "version": "0.1.9",
-  "author": {
-    "name": "ViPro",
-    "email": "VdustR@gmail.com",
-    "url": "https://VdustR.github.io"
-  },
-  "license": "MIT",
-  "homepage": "https://github.com/VdustR/promise-over",
-  "repository": {
-    "type": "git",
-    "url": "git@github.com:VdustR/promise-over.git"
-  },
-  "bugs": {
-    "url": "https://github.com/VdustR/promise-over/issues"
-  },
+  "description": "A promise extension for over duration, timeout, and expiration.",
   "keywords": [
     "promise",
     "over",
@@ -23,12 +10,25 @@
     "async",
     "await"
   ],
-  "private": false,
-  "main": "dist/promiseOver.umd.min.js",
-  "module": "dist/promiseOver.common.js",
+  "homepage": "https://github.com/VdustR/promise-over",
+  "bugs": {
+    "url": "https://github.com/VdustR/promise-over/issues"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "ViPro",
+    "email": "VdustR@gmail.com",
+    "url": "https://VdustR.github.io"
+  },
   "files": [
-    "dist"
+    "dist",
+    "src"
   ],
+  "main": "dist/promiseOver.umd.min.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:VdustR/promise-over.git"
+  },
   "scripts": {
     "commit": "git-cz",
     "serve": "vue-cli-service serve",
